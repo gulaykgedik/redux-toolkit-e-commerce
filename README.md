@@ -28,3 +28,7 @@ categorized products, cart management, and dark/light mode features.
 
 ## Project Screenshots
 <br/>
+
+
+
+![Kayt2025-02-12175105online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cb5fb643-d1f7-49f0-9d79-aeece4d2ef15)
