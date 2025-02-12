@@ -17,6 +17,7 @@ categorized products, cart management, and dark/light mode features.
 
 ## Technologies Used
 <br/>
+
 - React.js
 - Redux Toolkit
 - React Router DOM
