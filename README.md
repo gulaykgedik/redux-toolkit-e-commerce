@@ -5,7 +5,8 @@ categorized products, cart management, and dark/light mode features.
 
 ## Features
 <br/>
-- Global State Management using Redux Toolkit.
+
+- Global State Management using Redux Toolkit. 
 - Page Navigation with React Router DOM.
 - Pagination using React Paginate.
 - Dark/Light Mode: Users can toggle between themes.
