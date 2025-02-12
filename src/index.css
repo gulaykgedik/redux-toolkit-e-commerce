@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  .navleft {
+    @apply hidden flex justify-center items-center md:flex;
+  }
+}
+
+.dark {
+  background-color: black;
+  color: white;
+
+  button {
+    color: black;
+  }
+  .footer ul li:hover {
+    color: black;
+  }
+}
+
+body {
+  font-family: "Nunito", serif;
+}
+
+.paginate {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.paginate li {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(159, 159, 159);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.paginate li:hover {
+  background-color: rgb(206, 200, 200);
+}
+
+/* Loader */
+
+.loadingtext {
+  text-align: center;
+  width: 100%;
+}
+
+.loadingtext p {
+  color: black;
+  position: relative;
+  text-align: center;
+}
+
+.loadingtext p::after {
+  position: absolute;
+  animation: b 3s infinite linear;
+  color: black;
+  content: "";
+  left: 105%;
+}
+
+@keyframes b {
+  0% {
+    content: "";
+  }
+
+  10% {
+    content: ".";
+  }
+
+  40% {
+    content: "..";
+  }
+
+  70% {
+    content: "...";
+  }
+
+  100% {
+    content: "";
+  }
+}
+
+/* Footer */
+
+.footer ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 5px;
+  width: max-content;
+}
+.footer ul li:hover {
+  background-color: #e5e7eb;
+  border-radius: 5px;
+}
